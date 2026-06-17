@@ -1,0 +1,26 @@
+# Python /Env
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data Files
+data/raw/*
+data/processed/*
+*.csv
+*.json
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# OS / System Files
+.DS_Store
+Thumbs.db
